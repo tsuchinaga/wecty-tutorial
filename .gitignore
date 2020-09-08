@@ -1,0 +1,7 @@
+### for IntelliJ
+.idea
+*.iml
+
+### output
+*.wasm
+*_gen.go
