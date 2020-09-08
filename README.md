@@ -9,6 +9,7 @@
 
 ## 動かし方
 
+* `$ go get github.com/nobonobo/wecty/cmd/wecty` でcliツールを取得
 * `$ go generate` でレンダラーの自動生成
 * `$ GOOS=js GOARCH=wasm go build -o ./src/main.js .` でwasmファイルを吐き出す
 * `src/index.html` を開けばwasmが読み込まれて動く。
